@@ -1,0 +1,11 @@
+node_modules
+dist
+coverage
+.scannerwork
+reports
+.git
+.gitignore
+*.md
+.vscode
+.env
+.env.local
