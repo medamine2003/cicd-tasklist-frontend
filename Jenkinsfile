@@ -76,7 +76,7 @@ pipeline {
                     withSonarQubeEnv('sonarqube') {
                         sh '''
                             npx sonarqube-scanner \
-                              -Dsonar.projectKey=${SONAR_PROJECT_KEY} \
+                              -Dsonar.projectKey="${SONAR_PROJECT_KEY}" \
                               -Dsonar.sources=src \
                               -Dsonar.tests=src \
                               -Dsonar.test.inclusions=src/**/*.test.tsx,src/**/*.test.ts \
