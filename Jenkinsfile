@@ -8,7 +8,7 @@ pipeline {
 
         SONAR_HOST_URL = "https://sonarqube.cicd.kits.ext.educentre.fr"
         SONAR_CREDENTIALS_ID = "mohamed-amine-cicd-frontend-project"
-        SONAR_PROJECT_KEY = "Mohamed-Amine - TaskList Frontend"
+        SONAR_PROJECT_KEY = "mohamed-amine-cicd-frontend-project"
 
         BUILD_TAG = "${env.BUILD_NUMBER}"
         IMAGE_TAG = "${DOCKER_IMAGE_NAME}:${BUILD_TAG}"
